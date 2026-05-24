@@ -1,0 +1,26 @@
+name: scoova_maps
+description: >-
+  Scoova map SDK for Dart/Flutter — static-map URL builders and a
+  MapLibre-compatible style URL builder, with optional Blob/Uint8List
+  fetching. Locale-aware. No native dependencies.
+version: 1.0.0
+homepage: https://cloud.scoo-va.info
+repository: https://github.com/Scoova/scoova-maps-flutter
+issue_tracker: https://github.com/Scoova/scoova-maps-flutter/issues
+documentation: https://cloud.scoo-va.info/docs
+
+topics:
+  - maps
+  - maplibre
+  - static-map
+  - geospatial
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  http: ^1.2.0
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
