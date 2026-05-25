@@ -173,7 +173,7 @@ Future<Uint8List> staticMapBytes(
   }
 }
 
-/// MapLibre-compatible style URL. Drop into a MapLibre map's `styleString`
+/// Scoova-compatible style URL. Drop into a MapLibre map's `styleString`
 /// or `styleURI` parameter.
 String styleUrl(String styleName, StyleUrlOptions options) {
   final base = _stripTrailingSlashes(options.tilesBase);

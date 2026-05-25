@@ -1,7 +1,7 @@
 # scoova_maps (Dart / Flutter)
 
 Scoova map SDK for Dart and Flutter. Ships **static-map URL builders and a
-MapLibre-compatible style URL builder** — drop them into `Image.network(...)`,
+Scoova-compatible style URL builder** — drop them into `Image.network(...)`,
 `NetworkImage`, server-side renderers, OG share images, PDF receipts, or
 feed them into your existing `maplibre_gl_flutter` map.
 

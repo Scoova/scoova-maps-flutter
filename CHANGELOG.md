@@ -13,7 +13,7 @@ Initial release.
 - `staticMapBytes(opts, {client})` — `Future<Uint8List>` that fetches the
   rendered PNG; forwards `Accept-Language` when a locale is supplied;
   accepts an injectable `http.Client` for tests.
-- `styleUrl(styleName, options)` — MapLibre-compatible style URL builder.
+- `styleUrl(styleName, options)` — Scoova-compatible style URL builder.
 - `ScoovaMapDefaults` — endpoint constants + `styleUrlForLocale(locale)`.
 - `ScoovaColors`, `ScoovaLatLng`, `StaticMapMarker`, `StaticMapPath`,
   `StaticMapOptions`, `StyleUrlOptions`, `ScoovaMapsError`.
